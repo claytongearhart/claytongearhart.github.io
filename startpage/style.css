@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: white;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    line-height: 25px;
+    display: inline;
+}
+
+a:hover {
+    color: #3778F6;
+}
+
+.cardList {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    scrollbar-width: none;
+}
+
+
+.card {
+    height: 300px;
+    width: 300px;
+    min-width: 150px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #333333;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    margin: 0;
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+    top: 30vh;
+}
+
+.card:focus-within~.card, .card:hover~.card {
+    transform: translateX(1rem);
+}
+
+.card:hover {
+    transform: translateY(-1em);
+    z-index: 1;
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.icons {
+    fill: lightgray;
+    padding-right: 10px;
+    scale: 133%;
+}
+
+.icons:hover {
+    fill: #3778F6;
+}
+
+.iconp {
+    fill: lightgray;
+    padding-right: 10px;
+    scale: 150%;
+}
+
+.iconp:hover {
+    fill: #3778F6;
+}
+
+.icone {
+    fill: lightgray;
+    padding-right: 10px;
+    scale: 133%;
+}
+
+.icone:hover {
+    fill: #3778F6;
+}
+
+h2 {
+    display: inline;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.search {
+
+    width: 60vw;
+    height: 6vh;
+    border-radius: 16px;
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-family: Montserrat;
+    font-size: 2vh;
+    outline: none;
+}
+
+.searchp 
+{
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+
+.searchp .submit
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 6vh;
+    border: none;
+    background-color: transparent;
+}
