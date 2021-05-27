@@ -1,1 +1,0 @@
-# claytongearhart.github.io
