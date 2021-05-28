@@ -18,11 +18,14 @@
     "@geist-ui/react-icons": "^1.0.1",
     "@geist-ui/themes": "^1.1.0",
     "@geist-ui/typography": "^1.0.1",
+    "file-loader": "^6.2.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-react-helmet": "^4.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-infinite-scroll-component": "^6.1.0"
+    "react-infinite-scroll-component": "^6.1.0",
+    "restful-react": "^15.6.0",
+    "url-loader": "^4.1.1"
   }
 }
