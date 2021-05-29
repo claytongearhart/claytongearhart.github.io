@@ -14,12 +14,6 @@ google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
-# Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Clayton Gearhart'
-authorTwitter:  'YourTwitterUsername'
-
-permalink:       /:year/:title/
 
 defaults:
     -
