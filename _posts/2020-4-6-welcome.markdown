@@ -1,23 +1,9 @@
 ---
 title:  "Welcome!?"
 date:   2020-4-26 6:18:00
-description: There won't be anything meaningful here for a little while, my actual site isn't up to par yet :/
+description: Some information on why this site is so bad and pointless rn.
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+For now there will be nothing meaningful on this site. I am working on a personal website that I can be proud of but I'm not the best frontend designer and I now have less time to work on it because of projects/essays and exams.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+Feel free to have a look around, I might post here once or twice if I get **really** behind schedule on my polished personal site.
