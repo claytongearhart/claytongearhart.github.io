@@ -1,5 +1,5 @@
 ---
-title:  "Hello!?"
+title:  "Welcome!?"
 date:   2020-4-26 6:18:00
 description: There won't be anything meaningful here for a little while, my actual site isn't up to par yet :/
 ---
