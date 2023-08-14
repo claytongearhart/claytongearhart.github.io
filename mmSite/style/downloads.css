@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 6rem);
+  height: calc(100vh - 6rem);
+  margin: 3rem;
+}
+
+nav {
+  width: clamp(30rem, 50vw, 64rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .homeLink {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-list {
+  display: flex;
+  /* padding: 3rem 3rem 3rem 0; */
+  padding: 0;
+  margin: 2rem 0 2rem 0;
+  overflow-x: scroll;
+}
+
+.card {
+  height: 350px;
+  width: 20rem;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: -0.25rem 0 0.5rem rgba(250, 250, 250, 0.5);
+  border: 1px #ddd solid;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}
+
+.card:focus-within ~ .card,
+.card:hover ~ .card {
+  transform: translateX(6rem);
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card {
+  margin-left: -7rem;
+}
+
+.card-header {
+  margin-bottom: auto;
+}
+
+.card-header p {
+  font-size: 0.875rem;
+  margin: 0 0 1rem;
+  color: #7a7a8c;
+}
+
+
+h2
+{
+  font-size: 1.25rem;
+
+}
+.card-header h2 {
+  margin: 0.25rem 0 auto;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tags {
+  margin: 1rem 0 2rem;
+  padding: 0.5rem 0 1rem;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.tags a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.5rem;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+  border: 1px solid #28242f;
+  border-radius: 2rem;
+  padding: 0.2rem 0.85rem 0.25rem;
+  position: relative;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 2rem;
+  -webkit-box-shadow: 8px 8px 32px -8px #dddddd;
+  box-shadow: 8px 8px 32px -8px #dddddd;
+  padding: 1rem;
+}
+
+.modalCont {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter
+{
+ width: fit-content;
+ border-radius: 1rem;
+ background: white;
+ box-shadow: -0.25rem 0 0.5rem rgba(250, 250, 250, 0.5);
+ border: 1px #ddd solid;
+ padding: 1.5rem;
+ margin: 2rem 0 2rem 0;
+
+}
+
+.filter .filters
+{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.filter h2
+{
+  margin: 0;
+}
+
+fieldset
+{
+  border: none;
+  margin: .5rem 0 0 0;
+  padding: 0 .75rem 0 0rem;
+
+}
+
+fieldset:not(:first-child)
+{
+  border-left: 1.5px solid #d8dee9;
+  padding: 0 .75rem 0 .75rem;
+
+}

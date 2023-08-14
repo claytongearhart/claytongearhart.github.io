@@ -1,0 +1,44 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 6rem);
+  height: calc(100vh - 6rem);
+  margin: 3rem;
+}
+
+nav {
+  width: clamp(30rem, 50vw, 64rem);
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: grid;
+  height: 100%;
+}
+
+nav .homeLink {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+  max-width: 22rem;
+  justify-self: center start;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

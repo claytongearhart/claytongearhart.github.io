@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematics</title>
+    <link rel="stylesheet" href="/style/global.css" />
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [
+                    [ "$", "$" ],
+                    [ "\\(", "\\)" ],
+                ],
+            },
+            svg: {
+                fontCache: "global",
+            },
+        };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+    <script async src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script src="js/math.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <a class="homeLink" href="/">Site</a>
+            <a href="/downloads">Downloads</a>
+            <a href="/chem">Chemistry</a>
+            <a href="/math">Mathematics</a>
+        </nav>
+        <section class="content">
+            <section id="mathematics">
+                <h1>Mathematics</h1>
+                <!-- <p><b>What is Mathematics?</b></p>
+                <p>
+                    Mathematics is the study of numbers, formulas, shapes, and change. Mathematics is studied both on
+                    it's own as pure mathematics and is applied in other disciplines such as science as applied maths.
+                </p> -->
+            </section>
+            <section id="polynomials">
+                <h2>Polynomials</h2>
+                <p>A polynomial is an expression consisting of variables, coefficients, and the operations of addition,
+                    subtraction, multiplication, and non-negative integer exponentiation of variables. An example of a
+                    polynomial is \(x^2 − 4x + 7\).
+                    A term is a section of a polynomial consisting only of a single coefficient, variable, and exponent.
+                    In the above example, \(x^2 − 4x + 7\), the terms are \(x^2\), \(-4x\), and \(7\). A polynomial with
+                    only one term is called a monomial, polynomials with two and three terms are called binomials and
+                    trinomials respectively.
+                    <br>
+                    <br>
+                    The degree of a term is the power that it's variable is raised to, and the
+                    degree of an entire polynomial is the degree of it's highest degree term. The roots of a polynomial
+                    are the input values that yield an output of zero, these roots can be imaginary.
+                </p>
+                <h4>Factorization</h4>
+                <p>All polynomials can be written as a factored form in which the polynomial is written as the product
+                    of irreducible polynomials. To factor a polynomial we find the greatest common factor of all the
+                    coefficients, and then notate it as the factor times the polynomial divided by that factor. As an
+                    example, let us factor the polynomial \(6x^2 + 12x - 9\). \(3\) is the greatest factor that the
+                    coefficients:
+                    \(6\), \(12\), and \(9\) share. Knowing this we can rewrite the polynomial as \(3(2x^2 + 6x - 3)\).
+                    It should also be noted that you can factor out variables as well. As a quick example: \(4x^3 + 8x\)
+                    factors to \(4x(x^2 + 2)\).
+                <h4>Quadratics</h4>
+                <p>A quadratic is a 2nd degree polynomial. The standard quadratic form is \(ax^2 + bx + c\). We can find
+                    the roots of a quadratic using the quadratic formula, \(\frac{-b\pm\sqrt{b^2-4ac}}{2a}\). When \(a =
+                    1\), or is factored out the two roots of a polynomial, \(r_1\) and \(r_2\), satisfy the
+                    <span class="tooltip">
+                        identity
+                        <span class="tooltipText">
+                            An equations that shows how two expressions are related.
+                        </span>
+                    </span>
+                    \(r_1 + r_2 = b\) and \(r_1 \cdot r_2 = c\).
+                </p>
+
+                </p>
+                <div id="polyGraph">
+
+                </div>
+            </section>
+            <section id="radicals">
+                <h2>Radicals & Roots</h2>
+                <p>An \(n\)th root of a number \(x\) is a number \(r\) which, when raised to the power \(n\), yields
+                    \(x\): \(r^n = x\).
+                </p>
+            </section>
+            <section id="rationals">
+                <h2>Rationals</h2>
+                <p>A rational expression is an expression consisting of one polynomial divided by another. A rational
+                    equation is an equation of rational expressions. In order to solve rational equations often times
+                    you must factor the denominators as to create a common denominator. You can factor both the
+                    numerator and denominator to find common factors, which can be removed as they cancel out.</p>
+            </section>
+            <section id="exponentials">
+                <h2>Exponentials</h2>
+                <p>
+                    For any real number \(a\), and any real number \(n\), \(a^n\) is the \(a\) multiplied by itself
+                    \(n\) times. In this circumstance \(a\) is the base and \(n\) is the exponent. Listed below are some
+                    properties of operations on exponents with a common base.
+                </p>
+                <ul>
+                    <li>
+                        \(x^m \cdot x^n = x^{m+n}\)
+                    </li>
+                    <li>
+                        \(\frac{x^m}{x^n} = x^{m-n}\)
+                    </li>
+                    <li>
+                        \((x^m)^n = x^{m \cdot n}\)
+                    </li>
+                    <li>
+                        \(x^0 = 1\)
+                    </li>
+                </ul>
+                <h4>Exponential Functions</h4>
+                <p>
+                    An exponential function is a function that takes the general form \(f(x) = ab^x\). Exponential
+                    function are used to model exponential growth, which is when the output values changes by the same
+                    ratio between every equal distant set of input points.
+                </p>
+            </section>
+            <section id="logs">
+                <h2>Logarithms</h2>
+                <p>
+                    A logarithm is the inverse operation to exponentiation. If \(x^n = m\), then \(\log_x(m)=n\). This
+                    identity allows us to solve both exponential, and logarithmic problems. For example, if it's given
+                    that \(2^{3x} = 64\), the value of \(3x\) can be calculated as \(\log_2(64) = 6\), then divide by
+                    three to get the value of \(x\) as two.
+                </p>
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>

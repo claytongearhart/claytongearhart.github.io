@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+    <link rel="stylesheet" href="style/downloads.css">
+    <script defer src="https://printjs-4de6.kxcdn.com/print.min.js"></script>
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+    <script src="/js/downloads.js"></script>
+</head>
+
+    
+<body>
+    <div class="main">
+        <nav>
+            <a class="homeLink" href="/">Site</a>
+            <a href="/downloads">Downloads</a>
+            <a href="/chem">Chemistry</a>
+            <a href="/math">Mathematics</a>
+        </nav>
+
+        <section class="filter">
+            <h2>Filter</h2>
+            <div class="filters">
+                    <fieldset>
+                        <div>
+                            <input type="checkbox" name="diagram"checked >
+                            <label for="diagram">Diagram</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="worksheet" checked>
+                            <label for="worksheet">Worksheet</label>
+                        </div>
+
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <input type="checkbox" name="mathematics" checked>
+                            <label for="mathematics">Mathematics</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="chemistry" checked>
+                            <label for="chemistry">Chemistry</label>
+                        </div>
+
+                    </fieldset>
+
+            </div>
+        </section>
+
+        <section class="card-list">
+            <article class="card mathematics worksheet">
+                <header class="card-header">
+                    <p>Worksheet</p>
+                    <h2 onclick="printJS('http://47.225.169:80/resource?class=worksheet&id=31706')">Quadratic Factoring
+                    </h2>
+                </header>
+                <div class="tags">
+                    <a href="#">Polynomials</a>
+                    <a href="#">Factoring</a>
+                </div>
+            </article>
+            <article class="card mathematics worksheet">
+                <header class="card-header">
+                    <p>Worksheet</p>
+                    <h2 onclick="printJS('http://47.225.169:80/resource?class=worksheet&id=31707')">Quadratic Arithmetic
+                    </h2>
+                </header>
+                <div class="tags">
+                    <a href="#">Polynomials</a>
+                </div>
+            </article>
+            <article class="card mathematics diagram">
+                <header class="card-header">
+                    <p>Diagram</p>
+                    <h2><a href="/media/factoringQuad.pdf">Polynomial Factoring</a></h2>
+                </header>
+                <div class="tags">
+                    <a href="#">Polynomials</a>
+                    <a href="#">Factoring</a>
+                </div>
+            </article>
+            <article class="card mathematics graph function diagram">
+                <header class="card-header">
+                    <p>Diagram</p>
+                    <h2><a href="/media/commonFunctions.pdf">Graphs of Common Functions</a></h2>
+                </header>
+                <div class="tags">
+                    <a href="#">Functions</a>
+                    <a href="#">Graphs</a>
+                </div>
+            </article>
+            <article class="card mathematics graph diagram">
+                <header class="card-header">
+                    <p>Diagram</p>
+                    <h2><a href="/media/graphParts.pdf">Parts of a Graph</a></h2>
+                </header>
+                <div class="tags">
+                    <a href="#">Graphs</a>
+                </div>
+            </article>
+            <article class="card chemistry diagram">
+                <header class="card-header">
+                    <p>Diagram</p>
+                    <h2><a href="/media/periodicTable.pdf">Periodic Table</a></h2>
+                </header>
+                <div class="tags">
+                </div>
+            </article>
+        </section>
+    </div>
+
+
+
+</body>
+
+</html>
